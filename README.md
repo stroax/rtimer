@@ -1,1 +1,2 @@
-# rtimer is a minimalist kitchen timer
+# Rtimer (Alpha) 
+Rtimer is a command line kitchen timer written in Rust

@@ -63,7 +63,7 @@ fn main() {
     let stream_handle = rodio::OutputStreamBuilder::open_default_stream()
         .expect("open default audio stream");
 
-    let file = BufReader::new(File::open("202029.wav").unwrap());
+    let file = BufReader::new(File::open("/home/robert/rust/projets/rtimer/assets/202029.wav").unwrap());
     let _sink = rodio::play(&stream_handle.mixer(), file).unwrap();
     std::thread::sleep(std::time::Duration::from_secs(6));
 }
