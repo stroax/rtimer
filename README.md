@@ -9,4 +9,4 @@ Example : rtimer 03:30
 
 With Cargo
 
-Cargo run 03:30
+cargo run 03:30
