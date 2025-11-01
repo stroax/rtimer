@@ -8,4 +8,14 @@ Changelog file
 
 ### Changed
 Create Assets folder and absolute path of sound arlarm
+
 README.md
+
+## 0.1.1 - 2025-11-01
+
+### Add
+Function Enter time
+
+### Changed
+Translate notification
+
